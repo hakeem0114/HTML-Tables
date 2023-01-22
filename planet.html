@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Table template</title>
+    <link href="planets.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Planets Data</h1>
+    
+    <table>
+        <caption>Data about the planets of our solar system (Planetary facts taken from Nasa's Planetary Fact Sheet - Metric).</caption>
+
+        <thead scope="colgroup">
+            <tr>
+                <th colspan="2" >&nbsp;</th> <! &nbsp = non breaking space>
+                <th class="name">Name</th>
+                <th>Mass <br> (10<sup>24</sup>kg)</th>  <! br = next line. sup subscript(to the power)>
+                <th>Diameter <br>(km)</th>
+                <th>Density <br>(kg/m<sup>3</sup>)</th>
+                <th>Gravity <br>(m/s<sup>2</sup>)</th>
+                <th>Distance from Sun<br>(10<sup>6</sup>km)</th>
+                <th>Mean Temperature<br>(<sup>&#176</sup>C)</th> <! &#176 = degree in HTML>
+                <th>Numer of Moons</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="5" colspan="2">Terrestrial Planets</th>
+
+                <tr>
+                    <th style class="name">Mercury</th>
+                    <td>0.330</td>
+                    <td>4,879</td>
+                    <td>5427</td>
+                    <td>3.7</td>
+                    <td>4222.6</td>
+                    <td>57.9</td>
+                    <td>1670</td>
+                    <td>Closest to the Sun</td>   
+                </tr>
+
+                <tr> 
+                    <th class="name">Venus</th>
+                    <td>0.330</td>
+                    <td>4,879</td>
+                    <td>5427</td>
+                    <td>3.7</td>
+                    <td>4222.6</td>
+                    <td>57.9</td>
+                    <td>1670</td>
+                    <td></td>   
+                </tr>
+
+                <tr>
+                  
+                    <th class="name">Earth</th>
+                    <td>0.330</td>
+                    <td>4,879</td>
+                    <td>5427</td>
+                    <td>3.7</td>
+                    <td>4222.6</td>
+                    <td>57.9</td>
+                    <td>1670</td>
+                    <td>Our Planet</td> 
+                </tr>
+
+                <tr>
+                    <th class="name">Mars</th>
+                    <td>0.330</td>
+                    <td>4,879</td>
+                    <td>5427</td>
+                    <td>3.7</td>
+                    <td>4222.6</td>
+                    <td>57.9</td>
+                    <td>1670</td>
+                    <td>The red planet</td> 
+                </tr>
+
+            </tr>
+
+            <tr>
+               
+             <th tscope="rowgroup" rowspan="7">Jovian Planets</th>
+             
+             <th scope="rowgroup" rowspan="3">Gas Giants</th>
+                <tr>
+                    <th class="name">Jupiter</th>
+                    <td>0.330</td>
+                    <td>4,879</td>
+                    <td>5427</td>
+                    <td>3.7</td>
+                    <td>4222.6</td>
+                    <td>57.9</td>
+                    <td>1670</td>
+                    <td>Largest Planet</td>   
+                </tr>
+                <tr>
+                    <th class="name">Saturn</th>
+                    <td>0.330</td>
+                    <td>4,879</td>
+                    <td>5427</td>
+                    <td>3.7</td>
+                    <td>4222.6</td>
+                    <td>57.9</td>
+                    <td>1670</td>
+                    <td></td>   
+                </tr>
+
+                <th scope="rowgroup" rowspan="4">Ice Giants</th>
+                <tr>
+                    <tr>
+                        <th class="name">Uranus</th>
+                        <td>0.330</td>
+                        <td>4,879</td>
+                        <td>5427</td>
+                        <td>3.7</td>
+                        <td>4222.6</td>
+                        <td>57.9</td>
+                        <td>1670</td>
+                        <td></td>   
+                    </tr>
+                    <tr>
+                        <th class="name">Neptune</th>
+                        <td>0.330</td>
+                        <td>4,879</td>
+                        <td>5427</td>
+                        <td>3.7</td>
+                        <td>4222.6</td>
+                        <td>57.9</td>
+                        <td>1670</td>
+                        <td>Blue Giant</td>   
+                    </tr>
+                </tr>
+            </tr>
+        
+         <tr>
+            <th rowspan="2" colspan="2">Dwarf Planets</th>
+            <tr>
+                <th class="name">Neptune</th>
+                <td>0.330</td>
+                <td>4,879</td>
+                <td>5427</td>
+                <td>3.7</td>
+                <td>4222.6</td>
+                <td>57.9</td>
+                <td>1670</td>
+                <td>Declassified as a planet in 2006, but this remains <a href="https://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">controversial</a> </td>
+    
+            </tr>
+         </tr>   
+
+
+
+         </tbody>
+
+
+    </table>
+
+    
+
+
+  </body>
+</html>
